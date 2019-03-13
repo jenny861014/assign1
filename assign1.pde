@@ -3,7 +3,7 @@
 PImage backGround,soil,life,groundHog,soldier,robot;
 
 int soldierX,soldierY;
-int lightX,lightY,lightOverX;
+int lightX,lightY;
 int robotX,robotY;
 int n;
 
@@ -28,7 +28,6 @@ void setup() {
   //light
   lightX=robotX+25; //start place
   lightY=robotY+37; //start place
-  lightOverX=lightX-185; //how much can light go
 }
 
 
