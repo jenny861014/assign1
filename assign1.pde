@@ -9,19 +9,19 @@ int n;
 
 
 void setup() {
-  size(640, 480, P2D);
-  backGround=loadImage("bg.jpg"); //put backGround in
-  soil=loadImage("soil.png"); //put soil in
-  life=loadImage("life.png"); //put life in
-  groundHog=loadImage("groundhog.png"); //put groundHog in
+	size(640, 480, P2D);
+	backGround=loadImage("img/bg.jpg"); //put backGround in
+  soil=loadImage("img/soil.png"); //put soil in
+  life=loadImage("img/life.png"); //put life in
+  groundHog=loadImage("img/groundhog.png"); //put groundHog in
   
   //robot
-  robot=loadImage("robot.png"); //put robot in
+  robot=loadImage("img/robot.png"); //put robot in
   robotX=floor(random(240,580)); //put robot on random place in each floor 
   robotY=floor(random(2,5))*80; //put robot on random floor
 
   //soldier
-  soldier=loadImage("soldier.png"); //put soldier in
+  soldier=loadImage("img/soldier.png"); //put soldier in
   soldierX=0; //start place
   soldierY=floor(random(2,5))*80; //put soldier on random floor
   
