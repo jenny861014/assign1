@@ -9,8 +9,8 @@ int n;
 
 
 void setup() {
-	size(640, 480, P2D);
-	backGround=loadImage("bg.jpg"); //put backGround in
+  size(640, 480, P2D);
+  backGround=loadImage("bg.jpg"); //put backGround in
   soil=loadImage("soil.png"); //put soil in
   life=loadImage("life.png"); //put life in
   groundHog=loadImage("groundhog.png"); //put groundHog in
