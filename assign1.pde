@@ -5,12 +5,12 @@ PImage backGround,soil,life,groundHog,soldier,robot;
 int soldierX,soldierY;
 int lightX,lightY,lightOverX;
 int robotX,robotY;
-int n; //how long the light is
+int n;
 
 
 void setup() {
-  size(640, 480, P2D);
-  backGround=loadImage("bg.jpg"); //put backGround in
+	size(640, 480, P2D);
+	backGround=loadImage("bg.jpg"); //put backGround in
   soil=loadImage("soil.png"); //put soil in
   life=loadImage("life.png"); //put life in
   groundHog=loadImage("groundhog.png"); //put groundHog in
@@ -35,21 +35,17 @@ void setup() {
 void draw() {
   image(backGround,0,0); //set backGround
   image(soil,0,160); //set soil
-  
   //life
   image(life,10,10); //left
   image(life,80,10); //middle
   image(life,150,10); //right
-  
   //grass
   colorMode(RGB);
   fill(124,204,25);
   noStroke();
   rect(0,145,640,15);
-  
   //groundHog
   image(groundHog,275,80); //set groundHog
-  
   //sun
   colorMode(RGB); //big yellow one
   fill(255,255,0); //big yellow one
