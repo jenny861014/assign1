@@ -64,7 +64,7 @@ void draw() {
   stroke(255,0,0); //color
   strokeWeight(10); //light's weight
   line(lightX,lightY,lightX+lightLength,lightY); //light's width
-  if(lightX>=robotX-1){
+  if(lightX>=robotX-185){
     lightX-=2;
     lightLength+=2;
     if(lightLength>=40){
